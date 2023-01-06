@@ -12,12 +12,12 @@
 On Ubuntu22.04
 
 ``` zsh
-sudo apt-get install ccache debian-archive-keyring debootstrap device-tree-compiler dwarves 
-sudo apt-get install gcc-arm-linux-gnueabihf jq libbison-dev libc6-dev-armhf-cross 
-sudo apt-get install libelf-dev libfl-dev liblz4-tool libpython2.7-dev libusb-1.0-0-dev 
-sudo apt-get install pigz pixz pv swig pkg-config python3-distutils qemu-user-static u-boot-tools 
-sudo apt-get install distcc uuid-dev lib32ncurses-dev lib32stdc++6 apt-cacher-ng 
-sudo apt-get install aptly aria2 libfdt-dev libssl-dev
+sudo apt install -y ccache debian-archive-keyring debootstrap device-tree-compiler dwarves
+sudo apt install -y gcc-arm-linux-gnueabihf jq libbison-dev libc6-dev-armhf-cross
+sudo apt install -y libelf-dev libfl-dev liblz4-tool libpython2.7-dev libusb-1.0-0-dev
+sudo apt install -y pigz pixz pv swig pkg-config python3-distutils qemu-user-static u-boot-tools
+sudo apt install -y distcc uuid-dev lib32ncurses-dev lib32stdc++6 apt-cacher-ng
+sudo apt install -y aptly aria2 libfdt-dev libssl-dev
 ```
 
 ## Versions Included
