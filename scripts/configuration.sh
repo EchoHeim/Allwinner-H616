@@ -187,13 +187,13 @@ show_checklist_variables "DEBOOTSTRAP_LIST DEBOOTSTRAP_COMPONENTS PACKAGE_LIST P
 
 unset LOG_OUTPUT_FILE
 
-DEBIAN_MIRROR='deb.debian.org/debian'
-DEBIAN_SECURTY='deb.debian.org/debian-security'
-UBUNTU_MIRROR='deb.debian.org/ubuntu-ports/'
+# DEBIAN_MIRROR='deb.debian.org/debian'
+# DEBIAN_SECURTY='deb.debian.org/debian-security'
+# UBUNTU_MIRROR='deb.debian.org/ubuntu-ports/'
 
-# DEBIAN_MIRROR='mirrors.tuna.tsinghua.edu.cn/debian'
-# DEBIAN_SECURTY='mirrors.tuna.tsinghua.edu.cn/debian-security'
-# UBUNTU_MIRROR='mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/'
+DEBIAN_MIRROR='mirrors.tuna.tsinghua.edu.cn/debian'
+DEBIAN_SECURTY='mirrors.tuna.tsinghua.edu.cn/debian-security'
+UBUNTU_MIRROR='mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/'
 
 # apt-cacher-ng mirror configurarion
 if [[ $DISTRIBUTION == Ubuntu ]]; then

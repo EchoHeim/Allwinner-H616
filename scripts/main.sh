@@ -16,7 +16,7 @@ umask 002
 
 DEST="${SRC}"/output
 
-REVISION="2.3.0"
+REVISION="3.0.0"
 NTP_SERVER="cn.pool.ntp.org"
 titlestr="Choose an option"
 
@@ -86,10 +86,10 @@ LINUXFAMILY="sun50iw9"
 
 ###################################################
 BOARD="h616"
-BOARD_NAME="BTT-CB1"
+BOARD_NAME="debian"
 
-USER_NAME="biqu"
-USER_PWD="biqu"
+USER_NAME="lodge"
+USER_PWD="lodge"
 ROOT_PWD="root"             # Must be changed @first login
 
 BRANCH="current"
